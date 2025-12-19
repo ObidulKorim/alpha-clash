@@ -7,18 +7,39 @@
     <title>Alpha Clash</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .font-anton {
+            font-family: "Anton", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
-    <section class="home">
+<body class="font-poppins">
+    <main class="min-h-screen bg-slate-950 bg-[url(images/background.png)] bg-no-repeat bg-center">
+        <section class="home min-h-screen text-white flex justify-center items-center">
+           <div class="flex flex-col  items-center gap-10">
+             <h1 class="uppercase text-8xl font-anton ">alpha clash pro</h1>
+            <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+            <button class="btn bg-white text-black">Play Now</button>
+           </div>
+        </section>
+        <section class="play-ground">
 
-    </section>
-    <section class="play-ground">
+        </section>
+        <section class="score">
 
-    </section>
-    <section class="score">
-
-    </section>
+        </section>
+    </main>
 </body>
 
 </html>
